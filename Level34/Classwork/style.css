@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+
+#div1{
+    text-decoration: dotted underline;
+}
+
+#div2{
+    text-decoration: dotted overline;
+}
+
+#div3{
+    text-decoration: double line-through;
+}

@@ -1,0 +1,60 @@
+#p-1{
+    color:black;
+    text-align: right;
+    text-decoration: underline green;
+
+}
+
+#p-2{
+    color:black;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+#p-3{
+    color:black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#p-4{
+    color:black;
+    text-align: right;
+    text-decoration: line-through dotted green;
+}
+
+#p-5{
+    color:black;
+    text-align: left;
+    text-decoration: line-through;
+}
+
+#p-6{
+    color:black;
+    text-align: left;
+    text-decoration: overline;
+}
+
+#p-7{
+    color:green;
+    text-align: right;
+    text-decoration:overline green ;
+}
+
+#p-8{
+    color:gray;
+    text-align: center;
+    text-decoration: overline gray;
+
+}
+
+#p-9{
+    color:black;
+    text-align: right;
+    text-decoration: underline green;
+}
+
+body{
+    background-color: aliceblue;
+    
+}
