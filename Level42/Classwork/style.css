@@ -1,0 +1,30 @@
+#div1,#div3,#div5{
+    background-color: red;
+    border-radius: 30px;
+    width: 100px;
+    height: 70px;
+
+}
+
+#div2,#div4,#div6{
+    background-color: blue;
+    border-radius: 30px;
+    width: 100px;
+    height: 70px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-image: url(https://vignette.wikia.nocookie.net/berserk/images/5/5c/Griffith_after_the_Kushan_battle.png/revision/latest?cb=20170416213135);
+}
