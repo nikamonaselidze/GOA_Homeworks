@@ -1,0 +1,30 @@
+#name{
+    font-style: oblique;
+    color:blanchedalmond;
+    background-color: chocolate;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+#M{
+    font-style:normal;
+    color:rgb(225, 30, 23);
+    background-color: rgb(82, 167, 9);
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+
+#N{
+    font-style: italic;
+    color:rgb(199, 8, 186);
+    background-color: rgb(1, 100, 81);
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+body{
+    font-family: Arial, 'Times New Roman', Times, serif ;
+}

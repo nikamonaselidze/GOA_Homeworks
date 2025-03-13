@@ -1,0 +1,13 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    transform: translateX(20px) translateY(10px);
+}

@@ -1,0 +1,98 @@
+body{
+    background-color:hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+section{
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    color:black;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    
+       
+
+}
+
+img{ 
+    margin: 27px;
+    border-radius: 10px;
+    width: 20rem;
+}
+
+.div-1{
+    padding: 20px;
+    gap: 20px;
+}
+
+.div-1 h2{
+    font-weight: 500px;
+    text-transform: uppercase;
+    font-size:0.8rem;
+    opacity:50%;
+}
+
+h1{
+    font-family: "Francues" , serif;
+    font-size:2.3rem;
+}
+
+.desc{
+    font-size:0.9rem;
+    opacity:50%;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.price{
+    font-family: "Frances",serif;
+    font-size: 2rem;
+    color:hsl(158, 36%, 37%);
+    font-weight: 700;
+    display: flex;
+}
+
+.price_dis{
+    color:gray;
+    text-decoration: line-through;
+    
+}
+
+.price_div{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.price_div .price_dis{
+    padding-top: 25px;
+    padding-right: 20px;
+
+}
+
+.button{
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    background:none;
+    border: none;
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.button:hover{
+    background-color:hsl(157, 55%, 12%) ;
+}

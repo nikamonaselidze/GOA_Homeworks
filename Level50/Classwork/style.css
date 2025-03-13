@@ -1,0 +1,50 @@
+body{
+    background-color:rgba(34, 9, 34, 0.816);
+    height: 300vh;
+
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color:rgb(152, 143, 152);
+
+    
+}
+
+
+.sticky_part{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 130px;
+    color:aliceblue;
+    margin-top: 50px;
+    
+}
+
+.photo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    z-index: -1;
+
+}
+img{
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px;
+
+}
+.parent{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap:20px;
+    
+
+}

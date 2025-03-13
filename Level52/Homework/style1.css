@@ -1,0 +1,15 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    background-color: blueviolet;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    transform: scale(2);
+
+}

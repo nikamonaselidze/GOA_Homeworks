@@ -1,0 +1,44 @@
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parent{
+    display: grid;
+    gap:20px;
+    grid-template-columns:200px 300px 400px 500px ;
+    grid-template-rows: 200px 300px 400px;
+    width:500px;
+    height: 300px;
+    
+
+
+    
+
+}
+
+.child{
+    background-color: brown;
+    
+
+}
+
+.parents{
+    
+    width: 500px;
+    height: 300px;
+    display: grid;
+    grid-template-rows:200px 200px 200px ;
+
+}
+
+.child2{
+    background-color: aqua;
+    border-radius: 50%;
+    width: 30px;
+    height: 20px;
+
+}
