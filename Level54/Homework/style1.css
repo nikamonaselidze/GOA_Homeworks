@@ -1,0 +1,28 @@
+.holiday-container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+}
+
+.holiday-container img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.holiday-container p {
+  font-size: 18px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .holiday-container img {
+    max-width: 200px;
+  }
+
+  .holiday-container p {
+    font-size: 14px;
+  }
+}

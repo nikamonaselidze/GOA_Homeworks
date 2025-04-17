@@ -1,0 +1,14 @@
+.box1 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  animation: rotateScaleColor 5s ease forwards;
+  animation-delay: 3s;
+}
+
+@keyframes rotateScaleColor {
+  to {
+    transform: rotate(360deg) scale(2);
+    background-color: red;
+  }
+}

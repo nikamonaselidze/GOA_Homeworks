@@ -1,0 +1,26 @@
+.responsive-box {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: lightblue;
+  text-align: center;
+  transition: 0.5s;
+}
+
+@media (max-width: 1024px) {
+  .responsive-box {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-box {
+    width: 40%;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-box {
+    width: 20%;
+  }
+}

@@ -1,0 +1,14 @@
+.box2 {
+      width: 200px;
+      height: 200px;
+      background-color: teal;
+      animation: moveRoundColor 7s infinite alternate;
+    }
+
+    @keyframes moveRoundColor {
+      to {
+        border-radius: 50%;
+        transform: translateX(100px);
+        background-color: orange;
+      }
+    }
